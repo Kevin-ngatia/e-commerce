@@ -1,0 +1,31 @@
+html{
+    box-sizing: border-box;
+    font-size: 62.5%;
+}
+body,#root{
+    height: 100vh;
+    margin: 0;  
+}
+.grid-container{
+    display: grid;
+    grid-template-areas: "header" "main" "footer";
+    grid-template-rows: 5rem 1fr 5rem;
+    grid: template columns 1fr; 
+    height: 100%;
+}
+header{
+    grid-area: header;
+    background-color: rgb(107, 107, 49);
+    color:white;
+}
+main{
+    grid-area: main;
+}
+footer{
+    grid-area:footer;
+    background-color: rgb(78, 78, 21);
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

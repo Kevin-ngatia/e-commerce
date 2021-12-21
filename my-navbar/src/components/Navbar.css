@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+:root{
+  ---clr-primary:#ffff;
+  ---clr-secondary:#2343
+}
+body{
+    
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    color: azure;
+    background-color: white
+   
+}
+.nav-container{
+   background-color: rgb(165, 252, 5);
+   margin: 0px;
+   display: flex;
+   justify-content: space-between;
+   padding: 0.5rem;
+   align-items: center;
+   color: white;
+
+}
+.logo{
+    height: 60px;
+    width: 50px;
+    object-fit: cover;
+}
+.sign-btn{
+    margin-right: 3rem;
+    padding:0.5rem;
+    text-transform: capitalize;
+    font-size: large;
+   padding-top: 0.25rem;
+   padding-bottom: 0.25rem;
+
+}
+.primary-btn{
+    font-size: large;
+    text-transform: capitalize;
+    padding-top: 0.4rem;
+    padding-left: 0.7rem;
+    border-radius: 5px;
+    box-shadow: #ffff;    
+}
